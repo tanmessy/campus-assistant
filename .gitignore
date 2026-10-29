@@ -1,0 +1,46 @@
+# ===== .NET =====
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.pssp
+project.lock.json
+
+# ===== Node =====
+node_modules/
+dist/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Env & Secrets =====
+.env
+.env.local
+.env.*.local
+appsettings.Development.json
+**/appsettings.*.Local.json
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===== OS =====
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ===== 毕设产物（可选传，按需注释掉）=====
+# *.docx
+# *.pdf
+# *.mp4
+# _原始备份.docx
+
+# 工作目录与日志
+.workbuddy/
+*.log
+
